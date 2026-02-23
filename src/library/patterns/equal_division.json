@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Major 3rd Cycle",
+    "description": "Equal division of octave by major thirds. Augmented orbit feeling.",
+    "tags": ["symmetric", "augmented", "coltrane"],
+    "kind": "equal_division",
+    "intervals": [4, 4, 4],
+    "wrap": true,
+    "octaveSpan": 12,
+    "defaultLength": 12,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  },
+  {
+    "id": 2,
+    "name": "Minor 3rd Cycle",
+    "description": "Equal division of octave by minor thirds. Diminished orbit feeling.",
+    "tags": ["symmetric", "diminished", "wheeler"],
+    "kind": "equal_division",
+    "intervals": [3, 3, 3, 3],
+    "wrap": true,
+    "octaveSpan": 12,
+    "defaultLength": 12,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  },
+  {
+    "id": 3,
+    "name": "Tritone Axis Toggle",
+    "description": "Two-pole orbit. Alternating tritone endpoints.",
+    "tags": ["symmetric", "tritone", "axis"],
+    "kind": "equal_division",
+    "intervals": [6, 6],
+    "wrap": true,
+    "octaveSpan": 12,
+    "defaultLength": 8,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  },
+  {
+    "id": 4,
+    "name": "Whole-Tone Cell",
+    "description": "Whole-tone scale division. Six equal steps per octave.",
+    "tags": ["symmetric", "whole-tone", "debussy"],
+    "kind": "equal_division",
+    "intervals": [2, 2, 2, 2, 2, 2],
+    "wrap": true,
+    "octaveSpan": 12,
+    "defaultLength": 12,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  }
+]

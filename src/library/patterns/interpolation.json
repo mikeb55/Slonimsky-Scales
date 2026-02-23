@@ -1,0 +1,38 @@
+[
+  {
+    "id": 5,
+    "name": "Chromatic Interpolation P5",
+    "description": "Chromatic interpolation between perfect 5th endpoints. D to A via half-steps.",
+    "tags": ["interpolation", "chromatic", "fifth"],
+    "kind": "interpolation",
+    "intervals": [1, 1, 1, 1, 1, 1, 1],
+    "wrap": false,
+    "octaveSpan": 12,
+    "defaultLength": 8,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  },
+  {
+    "id": 6,
+    "name": "Interpolation Minor 3rd",
+    "description": "Interpolation between minor 3rd endpoints. Chromatic fill.",
+    "tags": ["interpolation", "chromatic", "minor-third"],
+    "kind": "interpolation",
+    "intervals": [1, 1, 1],
+    "wrap": false,
+    "octaveSpan": 12,
+    "defaultLength": 8,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  },
+  {
+    "id": 7,
+    "name": "Diatonic Interpolation P5",
+    "description": "Diatonic interpolation D-E-F-G-A. Scale steps between fifth endpoints.",
+    "tags": ["interpolation", "diatonic", "fifth"],
+    "kind": "interpolation",
+    "intervals": [2, 2, 1, 2],
+    "wrap": false,
+    "octaveSpan": 12,
+    "defaultLength": 8,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  }
+]

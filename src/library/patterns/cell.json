@@ -1,0 +1,50 @@
+[
+  {
+    "id": 8,
+    "name": "Symmetric 1-2-1 Cell",
+    "description": "Small symmetric cell. Mirror around center.",
+    "tags": ["symmetric", "cell", "mirror"],
+    "kind": "cell",
+    "intervals": [1, 2, 1],
+    "wrap": false,
+    "octaveSpan": 12,
+    "defaultLength": 8,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  },
+  {
+    "id": 9,
+    "name": "0-1-4-5 Cell",
+    "description": "Four-note cell with characteristic interval steps.",
+    "tags": ["cell", "angular"],
+    "kind": "cell",
+    "intervals": [1, 3, 1],
+    "wrap": false,
+    "octaveSpan": 12,
+    "defaultLength": 8,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  },
+  {
+    "id": 10,
+    "name": "1-b2-3-#5 Cell",
+    "description": "Synthetic scalar cell. Four-note angular shape.",
+    "tags": ["cell", "synthetic", "angular"],
+    "kind": "cell",
+    "intervals": [1, 3, 3],
+    "wrap": false,
+    "octaveSpan": 12,
+    "defaultLength": 8,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  },
+  {
+    "id": 11,
+    "name": "1-2-b5-6 Cell",
+    "description": "Four-note cell with flat-five colour.",
+    "tags": ["cell", "colour"],
+    "kind": "cell",
+    "intervals": [2, 4, 2],
+    "wrap": false,
+    "octaveSpan": 12,
+    "defaultLength": 8,
+    "source": { "title": "Inspired by Slonimsky", "author": "Engine", "note": "Abstract interval structure only" }
+  }
+]

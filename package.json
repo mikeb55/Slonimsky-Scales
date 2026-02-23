@@ -1,0 +1,36 @@
+{
+  "name": "slonominsky-scales",
+  "version": "1.0.0",
+  "description": "Slonimsky-inspired scale/pattern engine with deterministic realization, MIDI and guitar LFV export",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "slon": "dist/cli/slon.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"const fs=require('fs'); const p=require('path'); const src=p.join(process.cwd(),'src','library','patterns'); const dest=p.join(process.cwd(),'dist','library','patterns'); if(fs.existsSync(src)){fs.mkdirSync(dest,{recursive:true}); for(const f of fs.readdirSync(src)){if(f.endsWith('.json'))fs.copyFileSync(p.join(src,f),p.join(dest,f));}}\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["slonimsky", "scales", "patterns", "midi", "guitar", "intervals"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "commander": "^12.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.0",
+    "vitest": "^2.0.0"
+  },
+  "files": [
+    "dist",
+    "src/library/patterns"
+  ]
+}
