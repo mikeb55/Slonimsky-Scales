@@ -1,4 +1,4 @@
-# Slonominsky-Scales
+# Slonimsky-Scales
 
 A reusable Slonimsky-inspired scale/pattern engine. Stores abstract interval structures (no copyrighted content), realizes them deterministically, and exports to MIDI or guitar LFV maps.
 

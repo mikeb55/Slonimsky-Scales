@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate Slonimsky Engine (watch)",
+      "type": "shell",
+      "command": "node --watch validate.js",
+      "problemMatcher": [],
+      "group": "build",
+      "isBackground": true,
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
